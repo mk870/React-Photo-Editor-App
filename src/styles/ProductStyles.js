@@ -24,9 +24,7 @@ export const ProductStyles = styled.div`
       margin:10px;
     }
     .background{
-    //position:absolute;
-    //width: 600px;
-    //height:600px;
+    
     background: ${props=>props.color};
     mix-blend-mode:hue;
   }

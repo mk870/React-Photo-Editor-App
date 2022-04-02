@@ -23,4 +23,5 @@ export const ContainerStyles = styled.div`
   @media (max-width:400px){
     overflow-x: hidden;
   }
+  
 `

@@ -14,6 +14,8 @@ export const ServicesStyles = styled.div`
     justify-content:center;
     align-items:center;
     background-image:url(${image});
+    background-color: rgb(76, 74, 79);
+    background-blend-mode: overlay;
     background-size: cover;
     left:0;
     right:0;
@@ -25,6 +27,8 @@ export const ServicesStyles = styled.div`
     }
     span{
       font-weight:bold;
+      padding:5px;
+      //color:orange;
     }
   }
   .Add{

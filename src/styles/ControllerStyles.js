@@ -26,4 +26,5 @@ export const ControllerStyles = styled.div`
   @media (max-width:920px){
     width: auto;
   }
+  
 `

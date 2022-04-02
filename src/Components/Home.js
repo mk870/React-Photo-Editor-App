@@ -6,7 +6,7 @@ import { FcFilledFilter } from 'react-icons/fc'
 import {AiFillFileText} from 'react-icons/ai'
 import {IoColorPaletteOutline} from 'react-icons/io5'
 import {BsEmojiSmile} from 'react-icons/bs'
-import Slider from './Slider'
+import Carousel from './Carousel'
 
 export default function Home() {
   const navigate = useNavigate()
@@ -69,7 +69,8 @@ export default function Home() {
         </div>
         
       </div>
-      <Slider/>
+      
+      <Carousel/>
     </HomeStyles>
   )
 }

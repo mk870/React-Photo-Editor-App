@@ -135,7 +135,7 @@ export default function Product() {
 
   if(canvas.current && image){
     canvas.current.onmousedown = e =>{
-      console.log('mousedown',e.layerX,e.layerY)
+      
       if (e.layerX <= (currentX + textWidth) && e.layerX >=(currentX) && e.layerY <= (currentY ) && e.layerY >=(currentY - textHeight/2)) {
         setDraggable(true)
         

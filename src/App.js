@@ -12,14 +12,20 @@ function App() {
   return (
     <BrowserRouter>
       <Globalstyles/>
+      <div className="container"> 
       <Navbar/>
-      <Routes> 
+      
+      <Routes>
+          
         <Route path="/" element={<Home/>}/>
         <Route path="/editor" element={<Editor/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path="*" element={<Errorpage/>}/>
+          
       </Routes>
+      
       <Footer/>
+      </div>
     </BrowserRouter>
     
   );

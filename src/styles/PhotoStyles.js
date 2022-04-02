@@ -38,7 +38,7 @@ export const PhotoStyles = styled.div`
       display: flex;
       flex-direction:column;
       justify-content:center;
-      //align-items:center;
+      
     }
     .upload{
       margin-left:150px;

@@ -5,6 +5,7 @@ export const HomeStyles = styled.div`
   display:flex;
   flex-direction:column;
   justify-content:center;
+  
   .intro{
     display:flex;
     justify-content:center;
@@ -27,7 +28,8 @@ export const HomeStyles = styled.div`
       
       p{
         font-size:20px;
-        color:white;
+        color:black;
+        font-weight:bold;
       }
       span{
         font-size:15px;
@@ -119,7 +121,21 @@ export const HomeStyles = styled.div`
       }
     }
   }
+  @media (max-width:480px){
+    .about{
+      .info{
+        .edited{
+          height:15em;
+          width: 20em;
+        }
+      }
+    }
+  }
   @media (max-width:400px){
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
     .about{
       .info{
         .edited{
@@ -138,4 +154,5 @@ export const HomeStyles = styled.div`
       }
     }
   }
+  
 `
