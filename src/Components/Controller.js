@@ -45,7 +45,8 @@ export default function Controller() {
         {showtextcontrols && <Text/>}
       <Button onClick={()=>setShowemojis(!showemojis)}>
         <div className="btncontents">
-          <BsEmojiSmile fontSize={25} color='#d020f7'/>  {showemojis?'Hide': 'Emojis'}
+          <BsEmojiSmile fontSize={25} color='#d020f7'/>
+          <span>{showemojis?'Hide': 'Emojis'}</span>  
         </div>
       </Button>
       {showemojis && <Emojis/>}

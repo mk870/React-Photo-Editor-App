@@ -29,6 +29,9 @@ export const PhotoStyles = styled.div`
     justify-content:center;
     margin-left:15px;
     color:white;
+    label{
+      margin:6px 0px;
+    }
     input{
       padding:5px;
     }

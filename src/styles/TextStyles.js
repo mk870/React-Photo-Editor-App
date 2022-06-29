@@ -28,6 +28,13 @@ export const TextStyles = styled.div`
     font-size:1.2em;
     
   }
+  label{
+    margin:6px 0px;
+  }
+  span{
+    color:rgb(0,212,212);
+    width: 90%;
+  }
   input{
     margin-bottom:10px;
   }

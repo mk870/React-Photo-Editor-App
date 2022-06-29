@@ -19,7 +19,7 @@ export default function Photo() {
       <div className="picture">
         <Button onClick={()=>setWebcam(!webcam)}>
           <div className="insideBtn">
-            <FcCamera fontSize={25}/> {webcam? 'Close Camera':'Take A Picture'}
+            <FcCamera fontSize={25}/> <span>{webcam? 'Close Camera':'Take A Picture'}</span>
           </div>
         </Button>
         <div className="upload">

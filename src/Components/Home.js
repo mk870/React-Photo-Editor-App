@@ -25,7 +25,7 @@ export default function Home() {
       <div className="about">
         <div className="info">
           <h1>Services that we continue to improve</h1>
-          <p>The best choice for editing your pictures with many features available at the palm of your hand,with super friendly services and easy to use editor</p>
+          <p>The best choice for editing your pictures with many features available at the palm of your hand,with super friendly features and easy to use editor</p>
           <p>Get started now for free with just a few clicks</p>
           <img src={image} alt="edited" className='edited'/>
         </div>

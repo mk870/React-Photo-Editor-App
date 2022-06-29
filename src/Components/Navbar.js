@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="pages">
         <span onClick={()=>navigate('/')}><FcHome/>Home</span>
         <span onClick={()=>navigate('/editor')}><FcEditImage/>Editor</span>
-        <span onClick={()=>navigate('/services')}><FcServices/>Services</span>
+        <span onClick={()=>navigate('/services')}><FcServices/>Features</span>
       </div>
     </NavbarStyles>
   )

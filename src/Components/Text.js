@@ -18,7 +18,7 @@ export default function Text() {
     <TextStyles>
       <label htmlFor="text">Please enter your text here:</label>
       <input type="text" value={text} onChange={e=>setText(e.target.value)} className="text"/>
-
+      <span>Click and drag the text inside your picture to change its position</span>
       <label htmlFor="fontsize">FontSize:</label>
       <input type="range" name="fontsize" min="10" max="50" value={fontsize} onChange={(e)=>setFontsize(e.target.value)}/>
 
