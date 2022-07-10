@@ -48,5 +48,5 @@ Image Editing features are:
 
 ### **Productionization**
 ***
-In this step, I ran the npm run build command to build the application for production and deployed it on heroku.  
+In this step, I ran the npm run build command to build the application for production and deployed it on netlify.  
 **Live Application**: [PixelShop-Editor](https://pixelshop-editor.netlify.app)
